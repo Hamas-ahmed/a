@@ -5,7 +5,7 @@ class Preprocessor:
     """
         This class shall  be used to clean and transform the data before training.
 
-        Written By: iNeuron Intelligence
+       
         Version: 1.0
         Revisions: None
 
@@ -22,7 +22,6 @@ class Preprocessor:
                 Output: A pandas DataFrame after removing the specified columns.
                 On Failure: Raise Exception
 
-                Written By: iNeuron Intelligence
                 Version: 1.0
                 Revisions: None
 
@@ -48,7 +47,7 @@ class Preprocessor:
                         Output: Returns two separate Dataframes, one containing features and the other containing Labels .
                         On Failure: Raise Exception
 
-                        Written By: iNeuron Intelligence
+                      
                         Version: 1.0
                         Revisions: None
 
@@ -72,7 +71,7 @@ class Preprocessor:
                                 Output: Returns a Boolean Value. True if null values are present in the DataFrame, False if they are not present.
                                 On Failure: Raise Exception
 
-                                Written By: iNeuron Intelligence
+                               
                                 Version: 1.0
                                 Revisions: None
 
@@ -104,7 +103,7 @@ class Preprocessor:
                                         Output: A Dataframe which has all the missing values imputed.
                                         On Failure: Raise Exception
 
-                                        Written By: iNeuron Intelligence
+                                       
                                         Version: 1.0
                                         Revisions: None
                      """
@@ -129,7 +128,6 @@ class Preprocessor:
                                                 Output: List of the columns with standard deviation of zero
                                                 On Failure: Raise Exception
 
-                                                Written By: iNeuron Intelligence
                                                 Version: 1.0
                                                 Revisions: None
                              """
