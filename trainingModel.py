@@ -56,7 +56,7 @@ class trainModel:
             # prepare the list of such columns to drop
             cols_to_drop=preprocessor.get_columns_with_zero_std_deviation(X)
 
-            # drop the columns obtained above
+            # drop the columns obtained above ++++++++++++++
             X=preprocessor.remove_columns(X,cols_to_drop)
 
             """ Applying the clustering approach"""
